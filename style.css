@@ -1,0 +1,91 @@
+h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+h2{
+color: blue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  section {
+    display: block;
+    margin:20px;
+  }
+label{
+
+    margin: 5px;
+}
+
+input{
+    
+    margin: 5px;
+}
+
+table, th, td {
+   border: 1px solid black;
+  border-collapse: collapse;
+  }
+
+  img{
+
+    width: 200px;
+    height: 200px;
+    border: 4px double black;
+   margin-right: 0px;
+   margin: 10px;
+
+  }
+
+  .NariDzev{
+
+margin-left:500px;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background: #f9f9f9;
+  }
+  /*-- Navigationsleiste --*/
+  .navbar {
+    background:#005ea9;
+    height:  80px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  .nav-link,
+  .navbar-brand {
+    color: white;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 2em !important;
+    
+  }
+  .nav-link:hover,
+  .navbar-brand:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .mylogo{
+
+    width: 50px;
+    height: 50px;
+    margin-top: 0em;
+    
+    
+
+  }
+  
